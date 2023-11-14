@@ -22,23 +22,23 @@ In line with this project, we have 11 columns from the datasets, indicating age,
 
 **Methodology**
 
-**Dataset Construction:** Created the diabetes.tab.text dataset with patient data (age, sex, BMI, average blood pressure, S1-S6 blood measures, and disease progression indicator Y).
+- **Dataset Construction:** Created the diabetes.tab.text dataset with patient data (age, sex, BMI, average blood pressure, S1-S6 blood measures, and disease progression indicator Y).
 
-**Coding Process:** Utilized Python to import libraries (pandas, numpy, matplotlib.pyplot) and load the dataset (df = pd.read_csv("diabetes.tab.txt", sep='/t')). Viewed dataset details using df.head() and df.info().
+- **Coding Process:** Utilized Python to import libraries (pandas, numpy, matplotlib.pyplot) and load the dataset (df = pd.read_csv("diabetes.tab.txt", sep='/t')). Viewed dataset details using df.head() and df.info().
 
 **Tasks:**
 
-**Task 1: Mean, Variance, and Standard Deviation Calculation **
-	Utilized numpy functions (mean(), var(), std()) to calculate for BP, sex, age, S1-S6, and Y. Printed results using print(f"Mean = {mean} Variance = {var} Standard Deviation = {std}").
+- **Task 1: Mean, Variance, and Standard Deviation Calculation **
+  Utilized numpy functions (mean(), var(), std()) to calculate for BP, sex, age, S1-S6, and Y. Printed results using print(f"Mean = {mean} Variance = {var} Standard Deviation = {std}").
 
-**Task 2: Boxplots Based on Gender**
-	Used matplotlib.pyplot (plt) to create boxplots for BMI, BP, and Y based on gender. Set figure size with plt.figure(figsize=(10,2)). Executed plt.boxplot(df[' '], vert=False, showmeans=True) for desired values. Added grid with plt.grid(color='gray', linestyle='dotted') and displayed with plt.show().
+- **Task 2: Boxplots Based on Gender**
+  Used matplotlib.pyplot (plt) to create boxplots for BMI, BP, and Y based on gender. Set figure size with plt.figure(figsize=(10,2)). Executed plt.boxplot(df[' '], vert=False, showmeans=True) for desired values. Added grid with plt.grid(color='gray', linestyle='dotted') and displayed with plt.show().
 
-**Task 3: Histograms for Age, Sex, BMI, and Y**
-	Utilized df[' '].hist(bins=15) to create histograms for age, sex, BMI, or Y. Labeled with plt.suptitle('--- distribution of diabetic patient') and plt.xlabel('---'). Displayed with plt.show().
+- **Task 3: Histograms for Age, Sex, BMI, and Y**
+  Utilized df[' '].hist(bins=15) to create histograms for age, sex, BMI, or Y. Labeled with plt.suptitle('--- distribution of diabetic patient') and plt.xlabel('---'). Displayed with plt.show().
 
-**Task 4: Correlation Testing**
-	Created scatter plots using plt.scatter(df[' '], df['Y']) for age or BMI. Set title with plt.title('--- vs. Y') and labels with plt.xlabel('---') and plt.ylabel('Y'). Displayed scatter plot with plt.show().
+- **Task 4: Correlation Testing**
+  Created scatter plots using plt.scatter(df[' '], df['Y']) for age or BMI. Set title with plt.title('--- vs. Y') and labels with plt.xlabel('---') and plt.ylabel('Y'). Displayed scatter plot with plt.show().
 
 
 **Result and Discussion**
@@ -47,11 +47,11 @@ In line with this project, we have 11 columns from the datasets, indicating age,
 The analysis delves into the descriptive statistics of numerous aspects in a dataset, most likely connected to diabetes patients.
 
 **1. Age (AGE):**
-   Mean Age: 48.52 years
-   Variability (Variance): 171.85
-   Dispersion (Standard Deviation): 13.11
+   - Mean Age: 48.52 years
+   - Variability (Variance): 171.85
+   - Dispersion (Standard Deviation): 13.11
 
-   The average age of the individuals in the dataset is around 48 years, with a relatively small spread indicated by the standard deviation. Understanding the age distribution is crucial in medical studies as certain conditions may be age-related.
+   - The average age of the individuals in the dataset is around 48 years, with a relatively small spread indicated by the standard deviation. Understanding the age distribution is crucial in medical studies as certain conditions may be age-related.
 
 **2. Sex (SEX):**
    Mean Sex: 1.47 (assuming this is a binary variable)
