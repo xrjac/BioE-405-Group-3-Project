@@ -66,7 +66,7 @@ The average age of the individuals in the dataset is around 48 years, with a rel
 > Variability (Variance): 0.25
 > 
 > Dispersion (Standard Deviation): 0.50
-   
+
 The mean suggests a binary encoding for gender, with a relatively low variance. This might indicate that the dataset is predominantly composed of one gender. Understanding gender distribution is important in medical research as some conditions may have gender-specific patterns.
 
 **3. Blood Pressure (BP):**
@@ -79,7 +79,7 @@ The mean suggests a binary encoding for gender, with a relatively low variance. 
 The average blood pressure is 94.65, and there is a notable variability as indicated by the high variance. Monitoring blood pressure is critical in diabetes management as it is often associated with cardiovascular complications.
 
 **4. S1 to S6 (Derived Variables):**
-> These variables represent different physiological measurements. Mean, Variability, and Dispersion for each variable.
+> These variables represent different physiological measurements.
 
 Understanding the means and variations in these physiological measurements is crucial for assessing the overall health of individuals with diabetes. Each of these variables likely plays a role in the progression and management of diabetes.
 
@@ -101,15 +101,21 @@ The following variables are represented and analyzed using boxplots:
 
 BMI values range from 18 to 42.2, with a median of 25.7 as represented by the orange line. The distribution of values is positively skewed, and there are three outlier values.
 
+![Screenshot 2023-11-14 214901](https://github.com/xrjac/BioE-405-Group-3-Project/assets/149233085/8ffcaee6-3992-4927-ba7c-9e9714d21026)
+
 Because the median falls beyond the healthy BMI range of 18.5 to 24.9, the middle value of the distribution qualifies as overweight. 186 respondents have a healthy weight. 2 respondents whose BMI are 18 and 18.1 fall into the underweight category, 155 respondents fall into the overweight category, and 99 respondents classify as obese. A majority of 256 values represent unhealthy weight, making 57.92% of the respondents have unhealthy BMI.
 
 **2. BP**
 
 BP values range from 62 to 133, with a median of 93 as represented by the orange line. The distribution of values is positively skewed.
 
+![Screenshot 2023-11-14 215022](https://github.com/xrjac/BioE-405-Group-3-Project/assets/149233085/3f44726a-1ce2-4311-96f3-05079bc817ec)
+
 **3. Y**
 
 Y values range from 25 to 346, with a median of 140.5 as represented by the orange line. The distribution of values is positively skewed. 
+
+![Screenshot 2023-11-14 215057](https://github.com/xrjac/BioE-405-Group-3-Project/assets/149233085/9e1688bb-0437-47dc-a016-d4bda36d1a33)
 
 ### **Task 3: Distribution of AGE, SEX, BMI and Y variables**
 
@@ -117,17 +123,25 @@ The provided findings depict the distributions of the variables AGE, SEX, BMI, a
 
 **1. AGE Distribution:**
 
+![Screenshot 2023-11-14 215143](https://github.com/xrjac/BioE-405-Group-3-Project/assets/149233085/3dad7470-0849-44a0-bbdd-7c73bef75a63)
+
 The histogram depicts the age distribution of diabetic patients.It is inclined to the right, indicating a greater percentage of diabetic elderly patients.
 
 **2. SEX Distribution:**
+
+![Screenshot 2023-11-14 215248](https://github.com/xrjac/BioE-405-Group-3-Project/assets/149233085/a24342e3-4c54-4a5c-aeae-3f68fd69f6e5)
 
 The histogram depicts the gender distribution among diabetic patients (assuming binary encoding, 1.0 or 2.0, male or female). The percentage of diabetic males is significantly higher than diabetic females, the distribution is skewed towards diabetic males.
 
 **3. BMI Distribution:**
 
+![Screenshot 2023-11-14 215324](https://github.com/xrjac/BioE-405-Group-3-Project/assets/149233085/74dced98-9772-4f00-beb2-3c0383cd90d3)
+
 The histogram displays the distribution of Body Mass Index (BMI) among diabetes patients. The histogram depicts a symmetric curve with an essentially normal range of BMI around 18.9 to 24.9 for approximately 168 diabetic patients.While approximately 268 diabetic patients are within the range of an overweight value (25.0 and above).
 
 **4. Y Distribution**
+
+![Screenshot 2023-11-14 215400](https://github.com/xrjac/BioE-405-Group-3-Project/assets/149233085/ffeccae0-f61f-4a43-81c6-97ec55135030)
 
 The histogram depicts the distribution of the target variable Y, which could indicate a clinical result or a diabetes-related indicator.
 
@@ -138,11 +152,17 @@ A scatterplot is a graphical representation of correlations between a pair of va
 **Age vs. Disease Progression**
 
 These two variables do not have a clear correlation as points are not directed to any direction–upward (to the right) or downward (to the left). Hence, age and disease progression are neither positively or negatively correlated with each other. The wide scattering of values also indicates their weak correlation. It is unclear how diabetes progresses as age increases or decreases; there is no distinguishable structure (line or curve). 
-	
+
+![Screenshot 2023-11-14 215444](https://github.com/xrjac/BioE-405-Group-3-Project/assets/149233085/f4180a94-889c-4cf4-aeeb-1620c163ecd5)
+![Screenshot 2023-11-14 215444 (1)](https://github.com/xrjac/BioE-405-Group-3-Project/assets/149233085/b8c256a7-470e-409a-9c20-c5c953389fef)
+
 **Body Mass Index vs. Disease Progression**
 
 These two variables are positively correlated with each other; disease progression rate increases as BMI increases. Their correlation, however, is weak as points are not extremely close together. Outliers are also present. The shape of the scatterplot is linear rather than curved.
- 
+
+![Screenshot 2023-11-14 215715](https://github.com/xrjac/BioE-405-Group-3-Project/assets/149233085/a1771098-ea40-42e2-aad8-19fcd3424da1)
+![Screenshot 2023-11-14 215715 (1)](https://github.com/xrjac/BioE-405-Group-3-Project/assets/149233085/34ca708e-690a-4ae5-9aa3-68bc904943a7)
+
 According to the Harvard School of Public Health, excess weight, especially obesity, harms almost every aspect of health, from reproductive and pulmonary function to memory and mood. Furthermore, obesity is linked to the following diseases:
 
 1. Type 2 diabetes
