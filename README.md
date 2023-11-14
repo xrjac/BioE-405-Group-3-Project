@@ -2,17 +2,17 @@ Group 3
 # **A Data Analytics Project with Python: Analyzing Medical Data**
 https://medium.com/@natashanewbold/a-data-analytics-project-with-python-17614afa956b
 
-**Disclaimer:** The instructions and code used in the project are based on the provided guidelines
+> [**Disclaimer:**]
+> The instructions and code used in the project are based on the provided guidelines
 
-
-**Introduction**
+## **Introduction**
 
 The project "A Data Analytics Project with Python: Analyzing Medical Data" explores how to make use of data analysis methods and Python programming tools to gather important information from medical datasets, particularly a tiny dataset of diabetic patients. It aims to introduce users with the application of Python in the analysis of medical data. Using Python modules including NumPy and Pandas, it offers a collaborative approach for statistical analysis, graphical representation, and predictive modeling. This project demonstrates the use of data analytics in the healthcare industry, where the abundance of data at hand may be utilized to enhance decision-making, optimize healthcare procedures, and improve patient outcomes. 
 
 In line with this project, we have 11 columns from the datasets, indicating age, sex, BMI (body mass index), BP (average blood pressure), S1 to S6, which indicate different blood measurements, and the Y variable, which is the qualitative measure of disease progression over one year. This project intends to show how useful insights may be extracted from medical datasets using Python programming tools and data analysis approaches. Showcase Python's ability to handle intricate medical data that can help enhance healthcare analytics and make well-informed decisions.
 
 
-**Objectives**
+## **Objectives**
 
 * To describe the statistical analysis, visualizations, and modeling methods applied.
 * To interpret and discuss the insights gained from the analysis.
@@ -20,38 +20,38 @@ In line with this project, we have 11 columns from the datasets, indicating age,
 * To discuss the practical implications of the analysis in healthcare or medical research.
 
 
-**Methodology**
+## **Methodology**
 
-- **Dataset Construction:** Created the diabetes.tab.text dataset with patient data (age, sex, BMI, average blood pressure, S1-S6 blood measures, and disease progression indicator Y).
+**Dataset Construction:** Created the diabetes.tab.text dataset with patient data (age, sex, BMI, average blood pressure, S1-S6 blood measures, and disease progression indicator Y).
 
-- **Coding Process:** Utilized Python to import libraries (pandas, numpy, matplotlib.pyplot) and load the dataset (df = pd.read_csv("diabetes.tab.txt", sep='/t')). Viewed dataset details using df.head() and df.info().
+**Coding Process:** Utilized Python to import libraries (pandas, numpy, matplotlib.pyplot) and load the dataset (df = pd.read_csv("diabetes.tab.txt", sep='/t')). Viewed dataset details using df.head() and df.info().
 
-**Tasks:**
+### **Tasks:**
 
-- **Task 1: Mean, Variance, and Standard Deviation Calculation **
-  Utilized numpy functions (mean(), var(), std()) to calculate for BP, sex, age, S1-S6, and Y. Printed results using print(f"Mean = {mean} Variance = {var} Standard Deviation = {std}").
+**Task 1: Mean, Variance, and Standard Deviation Calculation**
+Utilized numpy functions (mean(), var(), std()) to calculate for BP, sex, age, S1-S6, and Y. Printed results using print(f"Mean = {mean} Variance = {var} Standard Deviation = {std}").
 
-- **Task 2: Boxplots Based on Gender**
-  Used matplotlib.pyplot (plt) to create boxplots for BMI, BP, and Y based on gender. Set figure size with plt.figure(figsize=(10,2)). Executed plt.boxplot(df[' '], vert=False, showmeans=True) for desired values. Added grid with plt.grid(color='gray', linestyle='dotted') and displayed with plt.show().
+**Task 2: Boxplots Based on Gender**
+Used matplotlib.pyplot (plt) to create boxplots for BMI, BP, and Y based on gender. Set figure size with plt.figure(figsize=(10,2)). Executed plt.boxplot(df[' '], vert=False, showmeans=True) for desired values. Added grid with plt.grid(color='gray', linestyle='dotted') and displayed with plt.show().
 
-- **Task 3: Histograms for Age, Sex, BMI, and Y**
-  Utilized df[' '].hist(bins=15) to create histograms for age, sex, BMI, or Y. Labeled with plt.suptitle('--- distribution of diabetic patient') and plt.xlabel('---'). Displayed with plt.show().
+**Task 3: Histograms for Age, Sex, BMI, and Y**
+Utilized df[' '].hist(bins=15) to create histograms for age, sex, BMI, or Y. Labeled with plt.suptitle('--- distribution of diabetic patient') and plt.xlabel('---'). Displayed with plt.show().
 
-- **Task 4: Correlation Testing**
+**Task 4: Correlation Testing**
   Created scatter plots using plt.scatter(df[' '], df['Y']) for age or BMI. Set title with plt.title('--- vs. Y') and labels with plt.xlabel('---') and plt.ylabel('Y'). Displayed scatter plot with plt.show().
 
 
-**Result and Discussion**
+## **Result and Discussion**
 
 **Task 1: Analyzing the mean, and variance**
 The analysis delves into the descriptive statistics of numerous aspects in a dataset, most likely connected to diabetes patients.
 
 **1. Age (AGE):**
-   - Mean Age: 48.52 years
-   - Variability (Variance): 171.85
-   - Dispersion (Standard Deviation): 13.11
+     - Mean Age: 48.52 years
+     - Variability (Variance): 171.85
+     - Dispersion (Standard Deviation): 13.11
 
-   - The average age of the individuals in the dataset is around 48 years, with a relatively small spread indicated by the standard deviation. Understanding the age distribution is crucial in medical studies as certain conditions may be age-related.
+     - The average age of the individuals in the dataset is around 48 years, with a relatively small spread indicated by the standard deviation. Understanding the age distribution is crucial in medical studies as certain conditions may be age-related.
 
 **2. Sex (SEX):**
    Mean Sex: 1.47 (assuming this is a binary variable)
