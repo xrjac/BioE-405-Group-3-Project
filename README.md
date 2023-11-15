@@ -69,7 +69,16 @@ The average age of the individuals in the dataset is around 48 years, with a rel
 
 The mean suggests a binary encoding for gender, with a relatively low variance. This might indicate that the dataset is predominantly composed of one gender. Understanding gender distribution is important in medical research as some conditions may have gender-specific patterns.
 
-**3. Blood Pressure (BP):**
+**3. BMI**
+> Mean BMI: 26.38
+>
+> Variability (Variance): 19.52
+>
+> Dispersion (Standard Deviation): 4.42
+
+The mean BMI of 26.38 suggests that, on average, individuals in the studied population fall into the overweight category, according to the World Health Organization classifications. This implies that, on average, the body weight in relation to height is in the overweight range. 
+
+**4. Blood Pressure (BP):**
 > Mean BP: 94.65
 > 
 > Variability (Variance): 191.30
@@ -78,12 +87,12 @@ The mean suggests a binary encoding for gender, with a relatively low variance. 
 
 The average blood pressure is 94.65, and there is a notable variability as indicated by the high variance. Monitoring blood pressure is critical in diabetes management as it is often associated with cardiovascular complications.
 
-**4. S1 to S6 (Derived Variables):**
+**5. S1 to S6 (Derived Variables):**
 > These variables represent different physiological measurements.
 
 Understanding the means and variations in these physiological measurements is crucial for assessing the overall health of individuals with diabetes. Each of these variables likely plays a role in the progression and management of diabetes.
 
-**5. Target Variable (Y):**
+**6. Target Variable (Y):**
 > Mean Y: 152.13
 > 
 > Variability (Variance): 5943.33
