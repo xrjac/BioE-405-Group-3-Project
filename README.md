@@ -184,7 +184,7 @@ According to the Harvard School of Public Health, excess weight, especially obes
 8. Musculoskeletal problems like osteoarthritis, back pain, and disability
 9. Mental health disorders like anxiety and depression
 
-**Conclusion**
+## **Conclusion**
 
 In conclusion, the analysis involves the compilation of data from a dataset called "diabetes.tab.text" which includes patient information such as age, gender, BMI, blood pressure, and measurements S1 through S6. This analysis utilized Python, along with tools like Pandas, NumPy, and Matplotlib to explore the data, provide statistical summaries, and visualize significant variables in the diabetes dataset. 
 
